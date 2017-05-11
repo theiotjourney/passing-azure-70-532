@@ -1,5 +1,3 @@
-![Acing Azure Exam](images/ace-azure.jpg)
-
 # Passing the 70-532 Developing Microsoft Azure Solutions Certification Exam
 Helpful resources for passing the 70-532 Developing Microsoft Azure Solutions certification exam. Currently there are three main resource groups:
 

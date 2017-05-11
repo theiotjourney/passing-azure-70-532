@@ -6,10 +6,11 @@ Last updated - 2016-10-11
 * Setting RoleEnvironmentChangingEventArgs.Cancel to true will take the respective instance offline and bring it back again after the configuration changes have been applied.
 
 ## SQL
-* SQL Server service tier cannot be changed when Geo-Replication is enabled.
 * Restore window for Basic tier is 7 days.
 * Restore window for Standard tier is 14 days.
 * Restore window for Premium tier is 35 days.
+
+You can **upgrade or downgrade** a primary database to a different performance level (within the same service tier) without disconnecting any secondary databases. When upgrading, we recommend that you upgrade the secondary database first, and then upgrade the primary. When downgrading, reverse the order: downgrade the primary first, and then downgrade the secondary. When you upgrade or downgrade the database to a different service tier this recommendation is enforced. 
 
 ## Redis Cache
 * Port should not be specified in the connection string.
